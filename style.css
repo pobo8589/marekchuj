@@ -1,0 +1,711 @@
+body {
+    background-color: #e5e6cf;
+    font-family: "MuseoNormal";
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#wrap1{
+    top:-100px;
+    text-align: center;  
+}
+
+.section1 {
+    position: relative;
+    margin-bottom: 60px;
+}
+
+#obrazek1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    padding-bottom: 100px;    
+}
+
+#obrazek2{
+    padding-top: 250px;
+    z-index: 9;
+    margin: 0;
+    vertical-align: middle;
+    border-style: none;
+    right: 600px;
+}
+
+#obrazek3{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -2;
+}
+
+.section1 .opis{
+    font-size: 25px;
+    line-height: 25px;
+    text-align: right;
+    color: #590156;
+}
+
+@media (max-width: 1300px)
+.desc {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.section1 .desc1{
+    color: #e83f56;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.desc1{
+    color: red;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.heading {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+
+
+
+
+.section2 {
+    position: static;
+    margin-bottom: 60px;
+    background-repeat: no-repeat;
+}
+
+.section2 .container{
+    text-align: center;
+    position: static;
+    padding: 60px 15px;
+}
+
+#wrap2{
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-family: "MuseoNormal";
+    position: relative;  
+}
+
+.section2 .napis1{
+    font-size: 65px;
+    line-height: 55px;
+    color: white;
+    font-family: "MuseoLite";
+    padding-top: 30px;
+}
+
+.section2 .napis2{
+    color: #80dac3;  
+    font-size: 50px;
+    line-height: 30px;
+    font-family: "sMuseoLite";
+    padding-top: 30px;
+}
+
+.section2 .napis3{   
+    color: #80dac3;  
+    font-size: 40px;
+    line-height: 30px;
+    font-family: "sMuseoLite";
+    padding-top: 30px;
+}
+
+.section2 .napis4{
+    font-size: 60px;
+    line-height: 40px;
+    color: white;
+    font-family: "MuseoLite";
+    padding-top: 30px;
+}
+
+.section2 .napis5{
+    font-size: 40px;
+    line-height: 30px;
+    color: white;
+    font-family: "MuseoLite";
+  
+}
+
+
+
+
+
+
+
+.section3{
+    padding-bottom: 60px;
+}
+
+.section3 .przycisk{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.section3 .row .desc{
+    font-size: 18px;
+    line-height: 25px;
+    color: #590156;
+    font-family: "MuseoNormal";
+    text-align: right;
+    padding-left: 100px;
+}
+
+.section3 .right{
+   float: left;
+}
+
+.left{
+    color: #e83f56;
+    font-size: 45px;
+    line-height: 55px;
+    text-align: right;
+}
+
+.autor{
+    color: #590156;
+    font-size: 30px;
+    font-family: "MuseoNormal";
+    float: right;
+}
+
+
+
+
+
+
+
+#wrap4{
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: "MuseoLite";
+}
+
+.section4 {
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 60px;
+    margin-bottom: 60px;
+}
+
+.section4 .container .text1{
+    color: #e5e6cf;
+    font-size: 65px;
+    font-family: "MuseoLite";
+}
+
+.section4 .container .text2 {
+    color: #e5e6cf;
+    font-size:45px;
+    font-family: "MuseoLite";
+}
+
+.section4 .container .text3{
+    margin-top: 10px;
+    font-size: 26px;
+    color: white;
+    line-height: 30px;
+}
+
+.section4 .container .text3 span {
+    display: block;
+    font-size: 16.5px;
+    line-height: 25px;
+}
+
+.section4 .container .textimg{
+    text-align: left;
+    float: right;
+}
+
+.section4 .opis p{
+    color: white;
+    font-family: "MuseoLite";
+    font-size: 17px;
+    line-height: 22px;
+}
+
+#film{
+    float: auto;
+}
+
+#opis5{
+    color:#8443ca;
+    font-size: 30px;
+    font-family: "MuseoNormal";
+    text-align: center;
+}
+
+#opis6{
+    color: #e83f56;
+    font-size: 30px;
+    font-family: "MuseoNormal";
+    text-align: center;
+}
+#opis7{
+    color:#8443ca;
+    font-size: 30px;
+    font-family: "MuseoNormal";
+    text-align: center;
+}
+
+#opis8{
+    color: #e83f56;
+    font-size: 30px;
+    font-family: "MuseoNormal";
+    text-align: center;
+}
+
+#przycisk2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.section5{
+    background-color: #c8efd1;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+.section6{
+    top:100px;
+}
+
+.section6 .column{
+    text-align: left;
+    color: #590156;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: "MuseoSemiBold";
+    margin-bottom: 5px;
+    font-weight: bold;
+  padding-left: 100px;
+}
+
+.section6 .columncenter{
+    text-align: center;
+    color: #590156;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: "MuseoSemiBold";
+    margin-bottom: 5px;
+    font-weight: bold;  
+}
+
+#wrap6{
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.column-number {
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#opiswrap6{
+    color: #590156;
+    font-size: 45px;
+    line-height: 55px;
+}
+
+#numer1 ,#numer2 ,#numer3,#numer4{
+    font-size: 60px;
+    line-height: 60px;
+    color: #590156;
+    font-family: "MuseoBold";
+}
+
+#gora1,#gora2,#gora3,#gora4{
+    font-family: "MuseoSemiBold";
+    font-weight: bold;
+    display: block;
+    font-size: 22px;
+    line-height: 30px;
+    color: #590156;
+}
+#dol1,#dol2,#dol3,#dol4{
+    font-size: 22px;
+    line-height: 30px;
+    max-width: 90%;
+    margin: 0 auto;
+    font-family: "MuseoNormal";
+    color: #590156;
+}
+
+.glownynapis{
+    font-size: 35px;
+    line-height: 45px;
+    color: #da243d;
+    padding-bottom: 50px;
+} 
+
+
+
+
+
+
+
+
+
+#wrap7{
+    text-align: center !important;
+    position: relative;
+    margin-bottom: 60px;
+    top: 100px;
+    background-repeat: no-repeat;
+    z-index: 9;
+    padding: 80px 15px;
+}
+
+.text-white{
+    color: white;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: "MuseoNormal";
+}
+
+.section7 .heading-small{
+    font-size: 26px;
+    line-height: 34px;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+    color: #aff7d3;
+    font-family: "MuseoNormal";
+}
+
+.section7 .heading{
+    font-size: 40px;
+    line-height: 50px;
+    color: #aff7d3;
+    font-family: "MuseoNormal";
+}
+
+.lista{
+    color: #fff ;
+    text-align: left;
+    font-size: 25px;
+    line-height: 35px;
+    padding-bottom: 10px;
+    font-family: "MuseoLite";
+}
+
+.section8 .container .heading {
+    color: white;   
+}
+
+.section8 .container{
+    position: static;
+}
+
+
+
+
+
+
+
+#wrap8{
+    position: relative;
+    z-index: 1;
+    background: black;
+    min-height: 700px;
+}
+
+.section8 .godziny{
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 0;
+}
+
+.section8 .container .wrapimg img{
+    z-index: -1;
+    float: right;
+    right:150px;
+    position: absolute;
+}
+
+.sectionbilet{
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.ustwienieBiletu{
+    text-align: center;
+    float: auto;
+}
+
+.sectionbilet .napisBilet{
+    color: #e83f56; 
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-family: "Museo500";
+    text-align: center;
+}
+
+.sectionbilet .left ul{
+    text-align: left;
+    font-family: "MuseoLite";
+    font-size: 20px;
+    line-height: 30px;
+    list-style: none;
+    color: rgb(217, 33, 56);
+}
+
+.sectionbilet .napisBilet2{
+    color: black; 
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-family: "Museo500";
+    text-align: center;
+}
+
+.sectionbilet .right ul li {
+    color: black;
+        font-family: "MuseoLite";
+    font-size: 20px;
+    line-height: 30px;
+    list-style: none;
+}
+
+.napisdol{
+    font-weight: normal;
+    font-family: "MuseoLite";
+    margin-bottom: 0;
+    font-size: 30px;
+    color: #e83f56;
+    line-height: 40px;
+}
+
+.cena{
+    background-size: contain; 
+    font-family: "MuseoLite";
+    font-weight: bold;
+    position: relative;
+    font-size: 35px;
+    padding: 10px 20px;
+}
+
+li::before {
+    content: "› ";}
+
+#wrap8{
+    position: relative;
+    margin-bottom: 60px;
+    z-index: 1;
+}
+
+.section8{
+    z-index: 1;
+    min-height: 700px;
+
+}
+
+
+
+
+
+
+
+.section9{
+    padding-top: 100px;
+}
+
+.section9 .heading {
+    text-align: center;
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 1.5rem !important;
+}
+
+.section9 .where {
+    font-family: "MuseoLite";
+    font-size: 25px;
+    text-align: right;
+}
+
+.section9{
+    position: relative;
+    margin-bottom: 60px;
+    background-repeat: no-repeat;
+}
+
+.section8{
+    position: relative;
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+.section10{
+    position: relative;
+    margin-bottom: 60px;
+    min-height: 500px;
+}
+
+.section10 .mapa{
+    float: left;
+    position: absolute;
+    left: -5%;
+    top: -35%;
+}
+.section10 .hotel {
+    right: 0;
+    top: -125px;
+    z-index: -1;
+    float:right ;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+.section11 .heading {
+    color: #590156;
+    font-size: 40px;
+    line-height: 50px; 
+    text-align: center;
+    padding-top: 40px;
+}
+
+.section11{
+    margin-top: 100px;
+    font-family: "MuseoLite";
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.section11 .container .faq img {
+    float: right;
+}
+.section11 .container .faq .pytanie{
+    text-align: left;
+    font-weight: bold;   
+}
+
+.section11 .faq{
+    color: #da2339;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.section11 .col-lg-6{
+    font-size: 18px;
+    line-height: 25px;
+    color: #590156;
+}
+
+.mapa {
+    float: left;
+}
+
+
+
+
+
+
+.section13{
+    background-color: black;
+}
+
+.section13 .headingbig{
+    text-align: center;
+    padding-top: 40px;
+    color:white;
+    font-size: 75px;
+    line-height: 85px;
+}
+
+.section13 .heading{
+    text-align: center;
+    color:white;
+}
+
+.section13 img{
+    float: left;
+}
+
+.section13 a{
+    float: left;
+    color: #80dac3;
+    font-family: "MuseoSemiBold";
+    font-size: 25px;
+}
+
+.leftfloat{
+    float: left;
+}
+
+.section13 .linkfooter{
+    padding: 10px;
+}
+
+.section13 .logofooter{
+    padding: 10px;
+}
+
+.section13 .socialmedia{
+    padding: 10px;
+}
+
+.section13 .socialmedia .mesek{
+    padding: 10px;
+}
+
+.section13 .bg-footer {
+    top: -105px;
+    top: -70px;
+    z-index: -1;
+    left: 0;
+    min-height: 555px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.position-absolute {
+    position: absolute !important;
+}
+
+.section_8 .wrapimg{
+    z-index: -1;
+    width: 100%;
+    max-width: 590px;
+    float: right;
+}
+
